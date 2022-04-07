@@ -47,7 +47,7 @@ section {
     padding: 16px;
 }
 
-.rating h2 {
+h2 {
     color: var(--text-color);
     font-size: 1.5em;
 }
@@ -98,10 +98,35 @@ section {
 }
 
 /* thank you */
+.thankyou {
+    text-align: center;
+}
 
+.thankyou img {
+    margin-top: 20px;
+}
+
+.thankyou img, p{
+    margin-bottom: 20px;
+}
+
+.thankyou p:nth-child(2) {
+    background-color: #282f39;
+    width: 70%;
+    margin: 0  auto 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: var(--bgc-color-button);
+}
 
 .switch {
     display: none;
+}
+
+/* bouton selectionner */
+.btnActive {
+    background-color: var(--bgc-color-button)!important;
+    color: #fff!important;
 }
 
 /* footer */
